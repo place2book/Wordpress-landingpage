@@ -30,7 +30,7 @@ define('DB_USER', 'place2book');
 define('DB_PASSWORD', '4Rocket_boys');
 
 /** MySQL hostname */
-define('DB_HOST', 'mysql14.gigahost.dk');
+define('DB_HOST', 'mysql4.gigahost.dk');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
