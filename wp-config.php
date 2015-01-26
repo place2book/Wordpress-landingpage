@@ -21,16 +21,16 @@ define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . '/wp-content');
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'cr8_place2book');
+define('DB_NAME', 'place2book_landingpage');
 
 /** MySQL database username */
-define('DB_USER', 'cr8');
+define('DB_USER', 'place2book');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'viktor2010$');
+define('DB_PASSWORD', '4Rocket_boys');
 
 /** MySQL hostname */
-define('DB_HOST', 'mysql13.gigahost.dk');
+define('DB_HOST', 'mysql14.gigahost.dk');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
