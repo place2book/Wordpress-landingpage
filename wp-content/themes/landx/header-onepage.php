@@ -107,7 +107,7 @@ if( function_exists('ot_get_option') ){
 								<a class="btn standard-button" href="https://place2book.com/da/event_maker_signup/new" target="_blank">Opret dig som arrangør</a><br>
 							</div>
 
-							<div class="vertical-registration-form stats_box" style="margin-top: 30px; font-size: 24px;">
+							<div class="vertical-registration-form stats_box clearfix" style="margin-top: 30px; font-size: 24px;">
 								<h3 style="margin-bottom: 20px;font-size:1.4rem;">Lige nu har vi</h3>
 								<p>
 									Mere end <strong>2000</strong> aktive arrangementer hos <strong>1234</strong> arrangører.
