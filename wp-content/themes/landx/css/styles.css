@@ -1270,7 +1270,7 @@ header .button-container {
 
 
 
-/* CUSTOM STYLES (FREDERIK) */
+/* CUSTOM STYLES FOR P2B (FREDERIK) */
 
 #home .color-overlay {
 	background: none;
@@ -1278,4 +1278,8 @@ header .button-container {
 
 .intro-section > .row > .text-left {
 	background: rgba(0, 0, 0, 0.5);
+}
+
+.stats_box strong {
+	color: #008ed6;
 }
