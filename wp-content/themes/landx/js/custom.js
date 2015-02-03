@@ -2,6 +2,21 @@
     
     "use strict";
 
+/* ===================================
+===  CUSTOM P2B                   ====
+=================================== */
+
+    jQuery(document).on('ready', function() {
+        jQuery.get( "http://place2book.com/does/not/exist")
+            .done(function(data){
+                jquery('.stats_box').html(data);
+            })
+            .fail(function(){
+                jQuery('.stats_box').hide();
+            })
+    })
+
+
 /* =================================
 ===  MAILCHIMP                 ====
 =================================== */
