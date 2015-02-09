@@ -7,7 +7,7 @@
 =================================== */
 
     jQuery(document).on('ready', function() {
-        jQuery.get( "http://place2book.com/does/not/exist")
+        jQuery.get( "http://place2book.com/da/short_sales_speil.js")
             .done(function(data){
                 jquery('.stats_box').html(data);
             })
