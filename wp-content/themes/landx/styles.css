@@ -773,6 +773,10 @@ header .feature-list p {
 	text-align: right;
 }
 
+.column-3p .cta-1 {
+	width:142px;
+}
+
 .package-features ul li {
 	overflow: auto;
 	padding-top: 12px;
