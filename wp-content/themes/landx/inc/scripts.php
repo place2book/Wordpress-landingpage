@@ -46,7 +46,6 @@ function landx_scripts() {
 
 	// Adds JavaScript.
 	wp_enqueue_script( 'landx-bootstrap', THEMEURI . 'js/bootstrap.min.js', array( 'jquery' ), '', true );
-	wp_enqueue_script( 'landx-smoothscroll', THEMEURI . 'js/smoothscroll.js', array( 'jquery' ), '', true );
 	wp_enqueue_script( 'landx-scrollTo', THEMEURI . 'js/jquery.scrollTo.min.js', array( 'jquery' ), '', true );
 	wp_enqueue_script( 'landx-localScroll', THEMEURI . 'js/jquery.localScroll.min.js', array( 'jquery' ), '', true );
 	wp_enqueue_script( 'landx-carousel', THEMEURI . 'js/owl.carousel.min.js', array( 'jquery' ), '', true );
