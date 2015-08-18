@@ -7,9 +7,9 @@
 =================================== */
 
     jQuery(document).on('ready', function() {
-        jQuery.get( "https://place2book.com/da/short_sales_speil.js")
+        jQuery.get( "https://place2book.com/da/short_sales_speil.js", null, null, "html")
             .done(function(data){
-                jquery('.stats_box').html(data);
+                jQuery('.stats_box').html(data);
             })
             .fail(function(){
                 jQuery('.stats_box').hide();
