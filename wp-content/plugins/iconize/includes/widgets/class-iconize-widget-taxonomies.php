@@ -9,7 +9,7 @@ class IconizeWidgetTaxonomies extends WP_Widget {
 	function __construct() {
 
 		$widget_ops = array( 'classname' => 'iconize_widget_taxonomies', 'description' => __( 'Display iconized taxonomy terms ( Categories, Tags, custom taxonomies ).', 'iconize') );
-		$this->WP_Widget('iconize_taxonomy', __( 'Iconized Taxonomies', 'iconize' ), $widget_ops );
+		parent::__construct('iconize_taxonomy', __( 'Iconized Taxonomies', 'iconize' ), $widget_ops );
 	}
 
 	function widget( $args, $instance ) {
